@@ -1,0 +1,64 @@
+USE [master]
+GO
+/****** Object:  Database [ACTOR]    Script Date: 7/11/2023 8:01:25 PM ******/
+CREATE DATABASE [ACTOR]
+GO
+USE [ACTOR]
+GO
+/****** Object:  Table [dbo].[SalaryOfActor]    Script Date: 7/11/2023 8:01:25 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[SalaryOfActor](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[NAME] [nvarchar](100) NULL,
+	[Salary] [money] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[SalaryOfActUSE [master]
+GO
+/****** Object:  Database [ACTOR]    Script Date: 7/11/2023 8:01:25 PM ******/
+CREATE DATABASE [ACTOR]
+GO
+USE [ACTOR]
+GO
+/****** Object:  Table [dbo].[SalaryOfActor]    Script Date: 7/11/2023 8:01:25 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[SalaryOfActor](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[NAME] [nvarchar](100) NULL,
+	[Salary] [money] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[SalaryOfActor] ON 
+
+INSERT [dbo].[SalaryOfActor] ([Id], [NAME], [Salary]) VALUES (1, N'Vương Vũ Tiệp', 100000.0000)
+INSERT [dbo].[SalaryOfActor] ([Id], [NAME], [Salary]) VALUES (2, N'Maragret Wang', 100000.0000)
+INSERT [dbo].[SalaryOfActor] ([Id], [NAME], [Salary]) VALUES (3, N'Phương Sổ Chân', 50000.0000)
+INSERT [dbo].[SalaryOfActor] ([Id], [NAME], [Salary]) VALUES (4, N'Tống Đạt Dân', 40000.0000)
+SET IDENTITY_INSERT [dbo].[SalaryOfActor] OFF
+GO
+USE [master]
+GO
+ALTER DATABASE [ACTOR] SET  READ_WRITE 
+GO
+AME], [Salary]) VALUES (3, N'Phương Sổ Chân', 50000.0000)
+INSERT [dbo].[SalaryOfActor] ([Id], [NAME], [Salary]) VALUES (4, N'Tống Đạt Dân', 40000.0000)
+SET IDENTITY_INSERT [dbo].[SalaryOfActor] OFF
+GO
+USE [master]
+GO
+ALTER DATABASE [ACTOR] SET  READ_WRITE 
+GO
